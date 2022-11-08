@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        int a,b;
+        double c,d;
+        Scanner sc=new Scanner(System.in);
+        a=sc.nextInt();
+        System.out.println("1.kenarı giriniz:"+a);
+        b=sc.nextInt();
+        System.out.println("2.kenarı giriniz:"+b);
+        c=Math.sqrt((a*a)+(b*b));
+        System.out.println("Hipotenüs:"+c);
+        d=(a+b)/2;
+        System.out.println("Alan:"+d);
+
+    }}
